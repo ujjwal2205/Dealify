@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&display=swap');
+.navbar {
+  background-color: #ffffff; 
+  padding: 15px 5vw; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit';
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-title {
+  color: #333333;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+
+.navbar:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease-in-out;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 12px 4vw; 
+  }
+
+  .navbar-title {
+    font-size: 1.4em;  
+    text-align: center;
+  }
+}
