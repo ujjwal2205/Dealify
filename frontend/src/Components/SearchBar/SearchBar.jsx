@@ -29,8 +29,6 @@ function SearchBar({setQuery,setSubmitQuery,query,setSortBy,sortBy}) {
 >
   <option value="priceLowToHigh">Price: Low to High</option>
   <option value="priceHighToLow">Price: High to Low</option>
-  <option value="ratingHighToLow">Rating: High to Low</option>
-  <option value="ratingLowToHigh">Rating: Low to High</option>
 </select>
     </div>
   );

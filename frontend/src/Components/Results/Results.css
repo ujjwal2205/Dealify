@@ -72,14 +72,6 @@
   font-weight: 600;
 }
 
-.rating {
-  padding: 4px 15px;
-  font-size: 0.85em;
-  color: #f5a623;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
 
 .price {
   padding: 8px 15px;
