@@ -6,7 +6,7 @@ const HandleClick=(link)=>{
 window.open(link, "_blank");
 }
 function Results({submitQuery,sortBy}) {
-     const url="http://localhost:4000";
+     const url="https://dealify-backend-coa8.onrender.com";
      const [apiMessage,setApiMessage]=useState('');
      const [filteredResults,setFilteredResults]=useState([]);
      const [loading,setLoading]=useState(false);
